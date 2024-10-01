@@ -58,4 +58,9 @@ Tu tarea es implementar el modelo en el archivo `contactbook/model/contacts.py`.
   - `phone` de tipo `str`.
   - `email` de tipo `str`.
 
-  El método debe devolver una `list[Contact]` con todos los contactos que coincidan con los criterios proporcionados. Si un parámetro es una cadena vacía, no debe ser considerado en la búsqueda. Por ejemplo, si el parámetro `name` es una cadena vacía, el método debe devolver todos los contactos que coincidan con los criterios de `phone` y `email`, pero no con el criterio de `name`. La búsqueda debe ignorar el caso de las cadenas al compararlas y debe considerar una coincidencia si el criterio de búsqueda es una subcadena del atributo del contacto.
+  El método debe devolver una `list[Contact]` con todos los contactos que coincidan con los criterios 
+- proporcionados. Si un parámetro es una cadena vacía, no debe ser considerado en la búsqueda. Por ejemplo, 
+- si el parámetro `name` es una cadena vacía, el método debe devolver todos los contactos que coincidan con 
+- los criterios de `phone` y `email`, pero no con el criterio de `name`. La búsqueda debe ignorar el caso de 
+- las cadenas al compararlas y debe considerar una coincidencia si el criterio de búsqueda es una subcadena 
+- del atributo del contacto.
